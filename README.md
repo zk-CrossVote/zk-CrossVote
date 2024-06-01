@@ -1,49 +1,89 @@
 ```markdown
 # zk-CrossVote: Unified Governance Across Chains
 
-![zk-CrossVote Logo](https://github.com/samarabdelhameed/pics/blob/main/Black%20Typographic%20Graphic%20Designer%20Logo.png)
+![zk-CrossVote Logo]()
+
+Welcome to zk-CrossVote, a robust cross-chain governance management platform built on zkEVM. This innovative solution integrates Ethereum, Polygon zkEVM, Chainlink Automation, and Phala Network, aiming to streamline decentralized governance across multiple blockchain networks.
 
 ## Project Overview
 
-### Problem We Are Solving
+zk-CrossVote addresses the challenges associated with dispersed governance across various blockchain networks. In many decentralized autonomous organizations (DAOs), token holders are often siloed, leading to uneven voting power distribution. Our platform introduces a cross-chain governance structure that aggregates voting power irrespective of token ownership. By integrating Ethereum and zkEVM, zk-CrossVote enables seamless, democratic participation and governance that accurately reflects the perspectives of all token holders.
 
-The difficulty of dispersed governance across blockchain networks is what our project aims to solve. Token holders are frequently divided into silos and have a disproportionate amount of voting power when DAOs spread across several networks. Our platform offers a cross-chain governance structure that aggregates voting power regardless of token ownership, in an effort to unify this fragmented ecosystem. We ensure that no vote is overlooked in the multi-chain future by integrating Ethereum and zkEVM to enable smooth, democratic participation and governance that accurately reflects the views of all token holders.
+- [GitHub Repository]()
+- ![Flowchart 1](https://github.com/samarabdelhameed/pics/blob/main/BmbgDjl7vS.png)
+- ![Flowchart 2](https://github.com/samarabdelhameed/pics/blob/main/Screen%20Shot%202024-03-18%20at%201.24.58%20PM.png)
+- [Figma Design]()
+- [YouTube Demo]()
+- [Constellation: A Chainlink Hackathon won Polygon - LxLy Bridge zkEVM Extension]()
 
-### Encouraging Decentralized Management in All Chains
+## Problem Statement
 
-Our initiative is a shining example of innovation in the field of decentralized autonomy, providing a strong, unified cross-chain governance framework that is both inclusive and potent. This innovative solution aims to allow DAO members to incorporate their token holdings on the *Ethereum mainnet* and *Polygon zkEVM* networks, as well as to start and participate in governance initiatives on Ethereum. The key component of this system is the smooth integration offered by the *LXLY bridge*, which aligns token balances between chains to guarantee that each member's voting power is fairly represented and that the fundamentals of democratic participation are maintained.
+### Fragmented Governance Across Blockchain Networks
 
-### Simplified DAO Administration and Proposal Fulfillment
+In decentralized organizations spanning multiple blockchain networks, governance is often decentralized and token holders may find themselves in isolated silos. This fragmentation leads to an unequal distribution of voting power, hindering the democratic governance process. Current solutions struggle to provide a unified governance structure that can seamlessly aggregate voting power across diverse blockchain ecosystems.
 
-The GovXWrapper, a cross-chain wrapper contract that cooperates with OpenZeppelin's governance contracts to provide a safe and efficient governance process, strengthens the infrastructure of our platform. An unprecedented level of automation and computational intelligence is introduced with the advent of *Phala Network* and *Chainlink* Automation. The automation of vote and message claims on our platform, which ensures the precision and promptness of every governance action, depends on this interface. We guarantee that the governance process remains transparent and unchangeable by automating these essential processes.
+## Problem Challenges
 
-### An Integrated Method for Decentralized Decision-Making
+1. **Token Holder Disparity:** Token holders across different chains lack a unified platform to exercise their governance rights, resulting in disparate voting power.
+2. **Cross-Chain Governance Complexity:** Existing governance solutions do not effectively address the intricacies of decentralized governance across multiple blockchain networks.
+3. **Inefficient Voting Representation:** Token ownership on one chain does not translate proportionately to voting power on other chains, causing a lack of accurate representation.
 
-Beyond its technological capabilities, our platform excels thanks to a cutting-edge, user-friendly interface that puts the needs of its exceptional users first. We know that when decentralized governance is approachable and engaging, its full potential can be realized. As a result, our platform invites users to fully engage with the democratic process, serving as more than just a tool. Every decision is significant, every interaction is intuitive, and every member has a voice in this painstakingly created environment. Come along with us as we transform the DAO governance landscape by combining security, usability, and style to produce the best possible decentralized decision-making platform.
+## Solution Overview
 
-## Features
+### zk-CrossVote - Unifying Cross-Chain Governance
 
-- **Cross-Chain Voting**: Aggregate voting power across Ethereum and zkEVM networks.
-- **Seamless Integration**: Utilize the LXLY bridge to ensure fair representation of token balances between chains.
-- **Automated Governance**: Employ Chainlink and Phala Network for automated vote and message claims.
-- **User-Friendly Interface**: Engage users with an intuitive and interactive platform for decentralized decision-making.
+#### Objective
 
-## Technologies Used
+zk-CrossVote aims to revolutionize decentralized governance by offering a comprehensive cross-chain governance management platform. It addresses the challenges of fragmented governance by introducing a unified framework that aggregates voting power regardless of token ownership across various blockchain networks.
 
-- **Chainlink Automation**: Used Chainlink time-based trigger to execute the claim function every hour.
-  - [UpKeep link]()
-  - [Transactions]()
+#### Key Features and Solutions
 
-- **Phala Network**: To claim the message, we require specific Merkle proofs related to the source transaction for verification. These proofs are accessible through the [API](https://bridge-api.public.zkevm-test.net/bridges/). Our contract is linked to the Phat contract, which retrieves the necessary proofs from the API and transmits them to the contract to facilitate the message claiming process.
-  - [Code]()
-  - [Transaction]()
+1. **Encouraging Decentralized Management:**
+   - zk-CrossVote enables DAO members to seamlessly incorporate their token holdings on Ethereum mainnet and Polygon zkEVM networks.
+   - The LXLY bridge aligns token balances between chains, ensuring fair representation of voting power.
 
-- **Polygon zkEVM**: VoteOnZkEVM contract was deployed on Polygon zkEVM Testnet.
-  - [VoteOnZkEVM Contract]()
+2. **Simplified DAO Administration:**
+   - The GovXWrapper, integrated with OpenZeppelin's governance contracts, streamlines the governance process.
+   - Automation features from Phala Network and Chainlink ensure precision and promptness in governance actions.
 
-- **Goerli**: GovXWrapper contract was deployed on Goerli.
-  - [GovXWrapper Contract]()
-  - [Autoclaim Contract]()
+3. **Integrated Method for Decentralized Decision-Making:**
+   - zk-CrossVote provides a user-friendly interface, inviting users to actively engage in the democratic process.
+   - Every decision is significant, every interaction is intuitive, and every member has a voice in the platform's meticulously crafted environment.
+
+#### Outcomes
+
+- Unified governance structure across blockchain networks.
+- Fair representation of voting power for all token holders.
+- Streamlined and automated governance processes.
+
+## Technologies Utilized
+
+### Chainlink Automation
+
+Chainlink time-based triggers execute claim functions every hour, ensuring timely and accurate governance actions.
+
+- [UpKeep Link](https://automation.chain.link/goerli/56209270301599875549343820271679309979009473186668399424303531307152837514484)
+- [Transaction Details](https://goerli.etherscan.io/address/0x05222e5f67d4a4b363ca65ed7fcd25c3353e1972#internaltx)
+
+### Phala Network
+
+For message claiming, zk-CrossVote leverages specific Merkle proofs related to source transactions. Phala Network integration facilitates efficient message claiming processes.
+
+- [Code](https://github.com/samar19/zkChainUnity/blob/main/AutoClaimPhat/src/index.ts)
+- [Transaction Details](https://goerli.etherscan.io/tx/0xdd8288c2cc98f5ab073bb8079249e1b2bf30727ccc29c5fc405da0526bdb531b)
+
+### Polygon ZkEVM
+
+The VoteOnZkEVM contract is deployed on the Polygon ZkEVM Testnet, extending governance capabilities to the Polygon network.
+
+- [VoteOnZkEVM Contract Details](https://testnet-zkevm.polygonscan.com/address/0x611bb13B02D8FD1E94762b976cAC1fb01Ae39111)
+
+### Goerli
+
+On the Goerli network, zk-CrossVote deploys the GovXWrapper contract, facilitating cross-chain governance.
+
+- [GovXWrapper Contract Details](https://goerli.etherscan.io/address/0x9A5d0A5aD88C00308C53aA0b692Af33edAe7d895)
+- [Autoclaim Contract Details](https://goerli.etherscan.io/address/0x05222e5f67d4a4b363ca65ed7fcd25c3353e1972)
 
 ## Installation
 
@@ -117,7 +157,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgements
 
 - [Chainlink](https://chain.link/)
+- [Phala Network](https://phala.network/)
 - [Polygon](https://polygon.technology/)
 - [OpenZeppelin](https://openzeppelin.com/)
-- [Phala Network](https://phala.network/)
 
