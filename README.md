@@ -6,10 +6,9 @@ Welcome to zk-CrossVote, a robust cross-chain governance management platform bui
 
 zk-CrossVote addresses the challenges associated with dispersed governance across various blockchain networks. In many decentralized autonomous organizations (DAOs), token holders are often siloed, leading to uneven voting power distribution. Our platform introduces a cross-chain governance structure that aggregates voting power irrespective of token ownership. By integrating Ethereum and zkEVM, zk-CrossVote enables seamless, democratic participation and governance that accurately reflects the perspectives of all token holders.
 - [github link](https://github.com/zk-CrossVote/zk-CrossVote)
-- ![flow chart] https://github.com/samarabdelhameed/pics/blob/main/ploy.svg
-- ![flow chart](https://github.com/samarabdelhameed/pics/blob/main/BmbgDjl7vS.png)
-- ![flow chart](https://github.com/samarabdelhameed/pics/blob/main/Screen%20Shot%202024-03-18%20at%201.24.58%20PM.png)
- - [Figma link](https://www.figma.com/file/m2KyreOutNgftJC7zM0b7y/Untitled?type=design&node-id=0%3A1&mode=design&t=EKhB2uQ6EKnjAI9R-1)
+- ![flow chart](https://github.com/samarabdelhameed/pics/blob/main/dsdsds.png)
+- ![flow chart](https://github.com/samarabdelhameed/pics/blob/main/dddddddd.png)
+ - [Figma link]()
  - [yotube link]()
   - [ Chainlink HackathonPolygon - LxLy Bridge zkEVM Extension]()
 
